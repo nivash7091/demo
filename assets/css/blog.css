@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-container {
+    width: 70vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.blog {
+    padding: 40px 0;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-img {
+    max-width: 18vw;
+}
+
+.blog-content {
+    width: 50vw;
+}
+
+.blog-content a {
+    color: rgb(153, 0, 255);
+    font-weight: 600;
+}

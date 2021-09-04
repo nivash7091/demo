@@ -1,0 +1,75 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.about-jh-img {
+    width: 100%;
+    margin: auto;
+    height: 415px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.about-jyoti-hp-gas-agency {
+    width: 60vw;
+    margin: auto;
+}
+
+.about-main-heading {
+    text-align: center;
+    color: #003b5f;
+}
+
+.about-main p {
+    text-align: initial;
+}
+
+.features-facilites {
+    width: 70vw;
+    padding-top: 20px;
+}
+
+.features-facilities-heading {
+    text-align: center;
+    color: #003b5f;
+}
+
+.f-f-list li {
+    list-style: none;
+    line-height: 2.8rem;
+}
+
+.ff-list2 li {
+    line-height: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+    .about-jyoti-hp-gas-agency {
+        width: 80vw;
+        position: relative;
+    }
+    .about-jh-img {
+        height: auto;
+    }
+    .about-main-heading {
+        font-size: 28px;
+    }
+    .features-facilites {
+        width: 90vw;
+        margin: auto;
+        display: initial;
+    }
+    .features-facilities-heading {
+        font-size: 25px;
+    }
+    .f-f-list {
+        padding: 0;
+    }
+    .f-f-list li {
+        line-height: normal;
+        padding: 5px 0;
+    }
+    .ff-list2 .reqrmnts-list {
+        font-size: 13px;
+    }
+}
